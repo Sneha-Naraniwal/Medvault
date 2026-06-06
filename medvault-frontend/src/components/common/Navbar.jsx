@@ -12,11 +12,7 @@ export default function Navbar() {
   
   const [showEditProfile, setShowEditProfile] = useState(false);
 
-  const navItems = [
-    { label: "Dashboard", to: "/" },
-    { label: "Inventory", to: "/inventory" },
-    { label: "Alerts", to: "/alerts" },
-  ];
+  
 
   return (
     <>
